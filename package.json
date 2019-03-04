@@ -1,0 +1,54 @@
+{
+  "name": "express-movies-api-albererre",
+  "version": "1.0.0",
+  "description": "REST API to manage movies",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "ts-node server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlberErre/express-movies-API.git"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Express",
+    "movies"
+  ],
+  "author": "Alber Erre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlberErre/express-movies-API/issues"
+  },
+  "homepage": "https://github.com/AlberErre/express-movies-API#readme",
+  "dependencies": {
+    "@types/express-session": "^1.15.8",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.5.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.11.1",
+    "@types/jsonwebtoken": "^8.3.0",
+    "@types/method-override": "0.0.31",
+    "@types/mongoose": "^5.3.1",
+    "@types/node": "^10.12.7",
+    "@types/passport-jwt": "^3.0.1",
+    "@types/passport-local": "^1.0.33",
+    "node-notifier": "^5.2.1",
+    "ts-node": "^6.0.3",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.12.0",
+    "typescript": "^3.1.6"
+  }
+}
